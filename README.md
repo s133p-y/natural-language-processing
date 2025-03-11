@@ -34,4 +34,9 @@ Record a short video of your project to display here on your README. You can do 
 
 ## Project Description
 
-Write a description of the goal and/or problem that your application. Include descriptions of what text is being analyzed, either if its text files you are using to interpret text an how the user interacts with your project.
+Our project's goal was to have the user receive the emotion and corresponding word they feel based on a number they input 1-10; 1 being most gloomy and 10 being extremely happy. This can help to interpret human emotions based on an easy scale they are given. We used a list of 10 emotions and a list of 10 words, with each word corresponding to each emotion being inputted. The user is asked the question,”How are you feeling (1-10)?” with an emotion next to each number, The user then inputs a number based on their current emotion, resulting in the output “You are feeling: EMOTION”. And “The corresponding word is: WORD”. Through ArrayLists, Strings, and an If else statement, we were able to match each emotion to a word and make sure the user gets an accurate response based on the number they input.
+
+
+## NLP Techniques
+
+Write a description of what natural lanugage technique (NLP) you implemented in your project. State which methods in your project are associated with this, and a brief explanation of how those methods word and how they are necessary in the NLP technique. 
