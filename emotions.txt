@@ -1,0 +1,10 @@
+depressed
+sad
+anxious
+irritated
+neutral
+content
+cheerful
+joyful
+carefree
+ecstatic
