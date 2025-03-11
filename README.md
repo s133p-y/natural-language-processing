@@ -30,7 +30,7 @@ Record a short video of your project to display here on your README. You can do 
 - Upload the thumbnail image to your repo.
 - Use the following markdown code:
 
-[![Thumbnail for my projet](nameOfThumbnail.png)](youtube-URL-here)
+[![Thumbnail for my projet](thumbnail.png)](https://youtube.com/watch?v=JQ67vThDCU0&feature=youtu.be)
 
 ## Project Description
 
@@ -39,4 +39,4 @@ Our project's goal was to have the user receive the emotion and corresponding wo
 
 ## NLP Techniques
 
-Write a description of what natural lanugage technique (NLP) you implemented in your project. State which methods in your project are associated with this, and a brief explanation of how those methods word and how they are necessary in the NLP technique. 
+We implemented a synonym replacement NLP in order for our program to be able to ask a question to the user about the type of emotion they feel and returning a word synonymous to that emotion and displaying both. The methods in our project that are associated with this are the getUserInput and analyzeEmotion. The getUserInput method asks two questions. It first displays in the console log to select an emotion by its number and then gets the index of the emotions and displays all 10 from the list. The next question asks the user to input a number 1-10 of an emotion that correlates with how they feel, but if they choose a number not on the list it will return it is not a valid number in the list. When they input a number from the list, it will then call the analyzeEmotion method. This method will subtract the index by one because indexes start at 0 which makes it display the emotion they feel and then the word synonymous with that emotion and makes it all uppercase to highlight the choice the user makes. 
